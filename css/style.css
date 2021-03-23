@@ -1,0 +1,310 @@
+html{
+    scroll-behavior: smooth;
+    transition-delay: .1s;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+/* header header header */
+
+.header{
+
+}
+.navbar{
+    display: flex;
+    margin-top: 3%;
+}
+
+.logo{
+
+    flex-basis: 20%;
+}
+.logo img{
+
+}
+.nav-menu{
+
+    flex-basis: 60%;
+}
+.nav-menu ul{
+
+}
+.nav-menu li{
+
+    list-style: none;
+    display: inline-block;
+    margin-right: 5%;
+}
+.nav-menu a{
+
+    text-decoration: none;
+    color: black;
+    line-height: 51px;
+    font-size: 16px;
+    font-family: adobe gothic std;
+}
+.nav-menu a:hover{
+    transition: -0.8s ease;
+    color: #FF6162;
+}
+.nav-button{
+
+    flex-basis: 25%;
+    text-align: right;
+}
+.nav-button a{
+
+}
+.nav-button button{
+
+    background: #FF6162;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.nav-button button:hover{
+    background: #292640; 
+    transition: .2s ease;
+}
+/* home banner home banner */
+.hompage-banner{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.homepage-banner-content{
+
+    align-items: center;
+}
+.homepage-banner-content h1{
+
+    font-family: roboto;
+    font-weight: 900;
+    width: 60%;
+    font-size: 34px;
+    color: #292640;
+    text-transform: capitalize;
+}
+.homepage-banner-content p{
+
+    width: 85%;
+    font-family: arial;
+    color: #A5A6A8;
+    margin-top: 4%;
+}
+.homepage-banner-content i{
+
+    color: #A5A6A8;
+    font-size: 25px;
+    border: 1px solid #A5A6A8;
+    border-radius: 50%;
+    padding: 0% 1%;
+    margin-top: 4%;
+}
+.homepage-banner-img{
+
+}
+.homepage-banner-img img{
+
+}
+
+/* demo section demo section */
+
+.demo-section{
+
+    margin: 10% 3%;
+    text-align: center;
+}
+.demo-heading{
+
+}
+.demo-heading h1{
+
+    font-family: adobe gothic std;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: -10px;
+}
+.demo-heading p{
+
+    width: 25%;
+    margin: auto;
+    font-family: arial;
+    font-size: 15px;
+}
+.demo-wrapper{
+    display: flex;
+    margin-top: 4%;
+}
+.demo-1{
+    
+    margin: 2%;
+}
+.demo-1 img{
+
+    max-width: 100%;
+}
+.demo-1 a{
+
+    text-decoration: navajowhite;
+}
+.demo-1 h3{
+    
+    font-family: arial;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 800;
+    color: #6A6D6E;
+}
+.demo-1:hover{
+    box-shadow: 0px 0px 29px rgba(20, 21, 21, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* feature section feature section */
+
+
+.features-section{
+
+    align-items: center;
+}
+.features-heading{
+
+    text-align: center;
+    margin-bottom: 7%;
+}
+.features-heading h2{
+
+    font-family: adobe gothic std;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.features-heading p{
+
+    font-family: arial;
+    margin-top: -15px;
+}
+.features-wrapper{
+
+    display: flex;
+    height: 45%;
+    align-items: center;
+    margin: 0% 0;
+}
+
+.feature1{
+
+    text-align: center;
+    background: #F5F5F5;
+    margin: 1%;
+    flex-basis: 33%;
+}
+.feature1-wrapper{
+    
+    padding: 9%;
+}
+.feature1 i{
+    
+    font-size: 45px;
+    margin: 2% 0;
+}
+.feature1 h2{
+
+    font-family: roboto;
+    text-transform: capitalize;
+    margin-bottom: 4%;
+    font-size: 20px;
+}
+.feature1 p{
+    
+    font-family: arial;
+    font-size: 14px;
+}
+/* footer footer */
+
+.footer-section{
+
+    height: 50vh;
+    background: #292640;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-section-wrapper{
+
+    text-align: center;
+    margin: auto;
+}
+.footer-section h1{
+
+    color: white;
+    width: 50%;
+    margin: 4% auto;
+    font-family: roboto;
+    text-transform: uppercase;
+}
+.footer-button{
+
+    margin-top: 4%;
+}
+.footer-button button{
+    background: #FF6162;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.footer-button button:hover{
+    background: #292640;
+    border: 1px solid #FF6162;
+    transition: .2s ease;
+}
+.copyright{
+
+    margin-top: 4%;
+}
+.copyright p{
+
+    color: #93929F;
+    font-family: staatliches;
+    font-size: 17px;
+}
+.copyright i{
+
+    padding: 1%;
+}
+.top-nav{
+
+    margin-right: 0%;
+    position: absolute;
+    left: 90%;
+    top: 85%;
+}
+.top-nav a{
+
+}
+.top-nav i{
+    
+    color: white;
+    font-size: 35px;
+}
+.top-nav i:hover{
+    color: #FF6162;
+}
